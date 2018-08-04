@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.6.1)  26 JUN 2018 09:37
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.6.1)  4 AUG 2018 19:46
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.207 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter do
@@ -1476,14 +1476,14 @@ Package microtype Info: Character `textless ' is missing
 Package microtype Info: Character `textgreater ' is missing
 (microtype)             in font `TU/FontAwesome(0)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BB453B9B7DC423C4D49AE4097BE39E59;337.
 
@@ -1493,8 +1493,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 (\end occurred inside a group at level 3)
 
-### simple group (level 3) entered at line 135 ({)
-### simple group (level 2) entered at line 129 ({)
+### simple group (level 3) entered at line 136 ({)
+### simple group (level 2) entered at line 130 ({)
 ### simple group (level 1) entered at line 120 ({)
 ### bottom level
 
@@ -1504,7 +1504,7 @@ Here is how much of LuaTeX's memory you used:
  563 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 84 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:1,2:992,3:133,4:121,5:187,6:44,7:3034,8:93,9:278,10:3,11:216
+   avail lists: 1:1,2:1012,3:138,4:125,5:183,6:45,7:3063,8:94,9:283,10:2,11:211
  27048 multiletter control sequences out of 65536+600000
  44 fonts using 7450039 bytes
  57i,11n,63p,769b,432s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1513,7 +1513,7 @@ f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/fontawesome/FontAwes
 ome.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-r
 egular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmromand
 emi10-regular.otf>
-Output written on main.pdf (1 page, 37932 bytes).
+Output written on main.pdf (1 page, 37792 bytes).
 
 PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
