@@ -41,7 +41,7 @@
 % \email{xpan1@swarthmore.edu}                               % optional, remove / comment the line if not wanted
 % \homepage{shawnpan.me}                         % optional, remove / comment the line if not wanted
 % \extrainfo{}                 % optional, remove / comment the line if not wanted
-\photo[64pt]{images/picture.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\photo[70pt][1.5pt]{images/picture.jpg}                     % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -117,24 +117,25 @@
 
 \section{EXPERIENCE}
 %
-{\customcventry{Mar 2017 – present}{Junior Software Engineer}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
+{\customcventry{Mar 2017 – present}{Equity Pricing Developer}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
 {\begin{itemize}
-  \item Developed a batch pricing automation framework to automate and schedule overnight batch pricing requests  (including output formatting \& automatic reporting) of financial structured products using Python 3 Flask, MongoDB.
-  \item Developed Python tools and modules to wrap R\&D C\# APIs for use  by pricing teams.
-  \item Assisted in Migration of legacy codebase into Python 3.
+  \item Developed a python application to automate and schedule batches of pricing requests  (including output formatting \& automatic reporting) of cross asset structured products, used by trading, pricing \& sales teams.
+  	\newline - Stack: Python 3,  Flask, MongoDB, Pandas.
+  \item Implemented Python wrapper modules and clients to wrap R\&D APIs for use  by pricing teams.
+  \item Migrated legacy codebase to Python 3.
   
 \end{itemize}
 }
 
 {\customcventry{Feb 2016 – June 2016}{Software Engineer Intern}{OCP SA}{ElJadida, Morocco}{}{}
 {\begin{itemize}
-  \item Analyzed and performed a feasibility study of software waste dispersion modeling solutions.
+  \item Analyzed and performed a feasibility study of software solutions for waste dispersion modeling.
   \end{itemize}
 }
 
 {\customcventry{June 2015 – Aug 2015}{Software Developer Intern}{Societe Generale  Sogecapital Asset Management}{Casablanca, Morocco}{}{}
 {\begin{itemize}
-  \item Developed an API using Python, Pandas, Numpy \& SqlAlchemy to monitor financial ratios used in financial analysis.
+  \item Developed an  application using Python, Pandas, Numpy \& SqlAlchemy to monitor financial ratios used in financial analysis.
   \item Designed a tool using Python \& Javascript to automate weekly reporting.
 \end{itemize}
 }
@@ -143,9 +144,11 @@
 
 {\customcvproject{Batch Pricing Project}{Aug 2017 - Present}{}{}{}{}{}
   {\begin{itemize}
-    \item Impemented logic and database models in an object oriented approach.
+    \item Implemented logic and database managers in an object oriented approach.
     \item Developed and integrated Python clients for R\&D pricing web API's.
-    \item Automated generation of marketing templates, output formatting and email sending.
+    \item Automated generation and delivery of marketing templates.
+    
+    \item Used Jenkins pipeline for the CI/CD of the project
 
   \end{itemize}
   }
@@ -153,9 +156,9 @@
 
 {\customcvproject{Email Pricing Service}{Mar 2017 – Aug 2017}
 {\begin{itemize}
-  \item Used EWS to provide an external pricing API's used directly by clients to price investment products.
-  \item Developed an automated email parsing system to forward parsed pricing request to R\&D pricing APIs. (using anticipated implementation of Python 3.7's PEP 557 data classes)
-\end{itemize}
+  \item Developed an external email based pricing API used directly by clients to price equity structured products.
+  \item Implemented generic products mapping system. (using anticipated implementation of Python 3.7's data classes (PEP 557))
+   \end{itemize}
 }
 
 
@@ -165,9 +168,9 @@
     	\begin{itemize}
           \item Relevant Coursework: Data Structures and Algorithms, Databases.
           \item Programming Languages: Python, C++, Java, HTML/CSS, Javascript.
-          \item Frameworks, technologies \& tools : Flask, Django, Bootstrap, jQuery, Pandas, Numpy,  REST API, JSON.
+          \item Frameworks, technologies \& tools : Flask, Django, Bootstrap, jQuery, Pandas, Numpy,  REST, JSON.
           \item Databases: MySql, Sqlite, MongoDB.
-          \item CI/CD \& version control: JFrog Artifactory, TeamCity, GtiHub. 
+          \item CI/CD \& version control: Jenkins, Docker, JFrog Artifactory, Git. 
           \item Fluent in French, advanced level in English.
 		\end{itemize}}%
 \end{minipage}%
