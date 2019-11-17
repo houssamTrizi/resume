@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -24,7 +24,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.85]{geometry}
 \usepackage{multicol}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -32,9 +32,9 @@
 \usepackage{import}
 
 % personal data
-\name{Houssam Eddine}{Trizi}
+\name{Jihane}{SERRAR}
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{Rose 16, Rue D'Anvers Quatier Mers sultan Casablanca, Morocco }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{121 avenue du 18 juin 1940, 92500 Rueil Malmaison }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 % \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
 % \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
@@ -86,8 +86,8 @@
      {\itshape #3}
   \end{tabular}
   \ifx&#4&%
-  \else{\\%
-    \begin{minipage}{\maincolumnwidth}%
+  \else{\\% 
+   \begin{minipage}{\maincolumnwidth}%
       \small#4%
     \end{minipage}}\fi%
   \par\addvspace{#1}}
@@ -106,76 +106,82 @@
 \begin{center}
 \begin{tabular}{ c c c c }
 % \faGlobe\enspace xing.com/profile/HoussamEddineTrizi%
- \faEnvelopeO\enspace houssam.trizi@gmail.com & \faGithub\enspace houssamTrizi & \faMobile\enspace +212 (0) 68-296-0100\\  
+ \faEnvelopeO\enspace jihane.serrar1@gmail.com  & \faMobile\enspace +33 (0) 75-117-0225
 \end{tabular}
 \end{center}
 
 \section{EDUCATION}
-{\customcventry{June 2016}{Master of science in Modeling and Scientific Computing}{Mohammedia Engineering School}{Rabat, Morocco}{}{}}
-{\customcventry{June 2009}{Bachelor's Degree major: Physics}{Abi Darr ElGhifari High School}{Rabat, Morocco}{}{}}
+{\customcventry{september 2019 - Present}{Masters degree - Probability and Finance (ex DEA EL KAROUI)}{Polytechnique}{Paris, France}{}{}}
+\vspace*{3mm}
+{\customcventry{June 2017}{Engineer's degree - Modeling and Computer Science}{Mohammedia Engineering School}{Rabat, Morocco}{}{}}
+\vspace*{3mm}
+{\customcventry{June 2012}{Bachelor's Degree major: Mathematics}{Higher School Prepatory Classes}{Tangier, Morocco}{}{}}
+
+\vspace*{4mm}
 
 
 \section{EXPERIENCE}
 %
-{\customcventry{Mar 2017 – present}{Equity Pricing Developer}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
+{\customcventry{Mar 2018 - August 2019}{Pricing and Structuration Engineer}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
 {\begin{itemize}
-  \item Developed a python application to automate and schedule batches of pricing requests  (including output formatting \& automatic reporting) of cross asset structured products, used by trading, pricing \& sales teams.
-  	\newline - Stack: Python 3,  Flask, MongoDB, Pandas.
-  \item Implemented Python wrapper modules and clients to wrap R\&D APIs for use  by pricing teams.
-  \item Migrated legacy codebase to Python 3.
+  \item Price the cost of various forex products and solutions requested by clients (distributors).
+  \item Execute those transactions with sales and traders.
+    \item Participate in designing and pricing innovative forex structured products.
+
   
 \end{itemize}
 }
 
-{\customcventry{Feb 2016 – June 2016}{Software Engineer Intern}{OCP SA}{ElJadida, Morocco}{}{}
+\vspace*{3mm}
+
+{\customcventry{April 2017 – Oct 2017}{INRIA}{The National Institute for Research in Computer Science Intern}{Lille, France}{}{}
 {\begin{itemize}
-  \item Analyzed and performed a feasibility study of software solutions for waste dispersion modeling.
+  \item Model the electric vehicle routing problem (EVRP).
+  \item Develop algorithms (heuristics) to solve the EVRP. 
   \end{itemize}
 }
 
-{\customcventry{June 2015 – Aug 2015}{Software Developer Intern}{Societe Generale  Sogecapital Asset Management}{Casablanca, Morocco}{}{}
+\vspace*{3mm}
+
+{\customcventry{July 2016 – Aug 2016}{CEAC}{Electrical Construction And Metering Equipment Intern}{Fez, Morocco}{}{}
 {\begin{itemize}
-  \item Developed an  application using Python, Pandas, Numpy \& SqlAlchemy to monitor financial ratios used in financial analysis.
-  \item Designed a tool using Python \& Javascript to automate weekly reporting.
+  \item Optimize the production line of metering equipment.
+  \item Optimize the use and manage the stock.
+  \item Improve the safety and health system at work according to the referential OHSAS: 2007.  
 \end{itemize}
 }
-
-\section{PROJECTS}
-
-{\customcvproject{Batch Pricing Project}{Aug 2017 - Present}{}{}{}{}{}
-  {\begin{itemize}
-    \item Implemented logic and database managers in an object oriented approach.
-    \item Developed and integrated Python clients for R\&D pricing web API's.
-    \item Automated generation and delivery of marketing templates.
-    
-    \item Used Jenkins pipeline for the CI/CD of the project
-
-  \end{itemize}
-  }
-}
-
-{\customcvproject{Email Pricing Service}{Mar 2017 – Aug 2017}
-{\begin{itemize}
-  \item Developed an external email based pricing API used directly by clients to price equity structured products.
-  \item Implemented generic products mapping system. (using anticipated implementation of Python 3.7's data classes (PEP 557))
-   \end{itemize}
-}
-
+\vspace*{4mm}
 
 \section{SKILLS}
 \begin{minipage}{\maincolumnwidth}%
 	\small{
+
+\begin{tabular}{llllllllll}
+Ms Office  &  & &  & C++ & & & & & Excel VBA\\
+SQL  &  & &  & LaTex & & & & & \\
+\end{tabular}
+\end{minipage}%
+      
+}
+
+
+
+\vspace*{4mm}
+
+\section{LANGUAGES}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
     	\begin{itemize}
-          \item Relevant Coursework: Data Structures and Algorithms, Databases.
-          \item Programming Languages: Python, C++, Java, HTML/CSS, Javascript.
-          \item Frameworks, technologies \& tools : Flask, Django, Bootstrap, jQuery, Pandas, Numpy,  REST, JSON.
-          \item Databases: MySql, Sqlite, MongoDB.
-          \item CI/CD \& version control: Jenkins, Docker, JFrog Artifactory, Git. 
-          \item Fluent in French, advanced level in English.
+          \item French : Fluent  
+          \item English : Fluent 
+          \item Arabic : Native
 		\end{itemize}}%
 \end{minipage}%
       
 }
+
+
+
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
