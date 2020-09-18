@@ -24,7 +24,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.85]{geometry}
 \usepackage{multicol}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -34,7 +34,7 @@
 % personal data
 \name{Houssam Eddine}{Trizi}
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{Rose 16, Rue D'Anvers Quatier Mers sultan Casablanca, Morocco }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{2, Rue de La Reine 78500 Sartrouville, France }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 % \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
 % \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
@@ -106,72 +106,63 @@
 \begin{center}
 \begin{tabular}{ c c c c }
 % \faGlobe\enspace xing.com/profile/HoussamEddineTrizi%
- \faEnvelopeO\enspace houssam.trizi@gmail.com & \faGithub\enspace houssamTrizi & \faMobile\enspace +212 (0) 68-296-0100\\  
+ \faEnvelopeO\enspace houssam.trizi@gmail.com & \faGithub\enspace houssamTrizi & \faMobile\enspace +33 (0) 758-15-1770\\  
 \end{tabular}
 \end{center}
 
 \section{EDUCATION}
 {\customcventry{June 2016}{Master of science in Modeling and Scientific Computing}{Mohammedia Engineering School}{Rabat, Morocco}{}{}}
+{\customcventry{June 2013}{Classes préparatoires aux grandes écoles, options maths physiques (MP)}{CPGE High Tech}{Rabat, Morocco}{}{}}
 {\customcventry{June 2009}{Bachelor's Degree major: Physics}{Abi Darr ElGhifari High School}{Rabat, Morocco}{}{}}
-
+\section{PROFILE}
+Digital engineer with significant experience in automation development and industrialisation of python
+applications within investment banking front office teams (sales, engineering, trading), and with a good
+mathematical and financial knowledge.
 
 \section{EXPERIENCE}
 %
-{\customcventry{Mar 2017 – present}{Equity Pricing Developer}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
+{\customcventry{June 2020 – Present }{Digital Transformation Engineer (Trading Fixed Income)}{Societe Generale Corporate and Investment Banking}{Paris La Défense, France}{}{}
 {\begin{itemize}
-  \item Developed a python application to automate and schedule batches of pricing requests  (including output formatting \& automatic reporting) of cross asset structured products, used by trading, pricing \& sales teams.
-  	\newline - Stack: Python 3,  Flask, MongoDB, Pandas.
-  \item Implemented Python wrapper modules and clients to wrap R\&D APIs for use  by pricing teams.
-  \item Migrated legacy codebase to Python 3.
+  \item Building and integration of micro-services for implied volatility calculation process and contribution to internal market data backends.
+    \newline - Stack: C\#.Net Core/Framework, Nancy.
+
+  \item Setup automatic integration tests and deployment pipelines for the team's existing python applications. Teamcity, Octopus deploy.
+\end{itemize}
+}
+
+{\customcventry{June 2019 – June 2020}{Digital Transformation Engineer (Fixed Income)}{Societe Generale Corporate and Investment Banking}{Paris La Défense, France}{}{}
+{\begin{itemize}
+  \item Developed a pre-trade tool to automate XVA pricings for FIC products (Swaps (Vanilla, Convexe, Flexible \& Callable), Cross Currency Swaps \& other FIC exotic products, used by FIC pricing team.)
+
+  	\newline - Stack: Python 3.7 (Pandas, Numpy), Flask, MongoDB, ElasticSearch Kibana.
+  \item Developed a monitoring blotter of existing FIC deals to be able to propose to FIC corporate clients optimal unwinding dates. Python 3, Django, MySQL, Elasticseach Kibana.
+  \item Developed a monitoring tool for FIC Sales team to detect basis arbitrage opportunities for corporate clients.
+  \item Scripting pricing and risk analysis methodologies for FIC products.
   
 \end{itemize}
 }
 
-{\customcventry{Feb 2016 – June 2016}{Software Engineer Intern}{OCP SA}{ElJadida, Morocco}{}{}
+{\customcventry{Mar 2017 – Jan 2019}{Digital Transformation Engineer (Equity)}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
 {\begin{itemize}
-  \item Analyzed and performed a feasibility study of software solutions for waste dispersion modeling.
+  \item Developed an application to automate mass pricing of equity structured products variants for distribution clients, which serves as entry points for potential trades.
+  \newline - Stack: Python 3, Flask, MongoDB, Pandas.
+  \item Implemented Python clients for internal R\&D API‘s used by pricing teams
+
   \end{itemize}
 }
 
-{\customcventry{June 2015 – Aug 2015}{Software Developer Intern}{Societe Generale  Sogecapital Asset Management}{Casablanca, Morocco}{}{}
-{\begin{itemize}
-  \item Developed an  application using Python, Pandas, Numpy \& SqlAlchemy to monitor financial ratios used in financial analysis.
-  \item Designed a tool using Python \& Javascript to automate weekly reporting.
-\end{itemize}
-}
-
-\section{PROJECTS}
-
-{\customcvproject{Batch Pricing Project}{Aug 2017 - Present}{}{}{}{}{}
-  {\begin{itemize}
-    \item Implemented logic and database managers in an object oriented approach.
-    \item Developed and integrated Python clients for R\&D pricing web API's.
-    \item Automated generation and delivery of marketing templates.
-    
-    \item Used Jenkins pipeline for the CI/CD of the project
-
-  \end{itemize}
-  }
-}
-
-{\customcvproject{Email Pricing Service}{Mar 2017 – Aug 2017}
-{\begin{itemize}
-  \item Developed an external email based pricing API used directly by clients to price equity structured products.
-  \item Implemented generic products mapping system. (using anticipated implementation of Python 3.7's data classes (PEP 557))
-   \end{itemize}
-}
 
 
-\section{SKILLS}
+\section{SKILLS AND QUALIFICATIONS}
 \begin{minipage}{\maincolumnwidth}%
 	\small{
     	\begin{itemize}
           \item Relevant Coursework: Data Structures and Algorithms, Databases.
-          \item Programming Languages: Python, C++, Java, HTML/CSS, Javascript.
+          \item Programming Languages: Python, C#.Net, Java..
           \item Frameworks, technologies \& tools : Flask, Django, Bootstrap, jQuery, Pandas, Numpy,  REST, JSON.
-          \item Databases: MySql, Sqlite, MongoDB.
-          \item CI/CD \& version control: Jenkins, Docker, JFrog Artifactory, Git. 
-          \item Fluent in French, advanced level in English.
+          \item Databases: MSSQL Server, MongoDB.
+          \item CI/CD \& version control: Teamcity, Octous Deploy, Docker, JFrog Artifactory, Git. 
+          \item Fluent in both French and English.
 		\end{itemize}}%
 \end{minipage}%
       
