@@ -17,14 +17,13 @@
 % character encoding
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
-\usepackage{fontawesome}
 \usepackage{tabularx}
 \usepackage{ragged2e}
 % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-	⁃	\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.88]{geometry}
 \usepackage{multicol}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -116,49 +115,45 @@
 {\customcventry{June 2013}{Classes préparatoires aux grandes écoles, options maths physiques (MP)}{CPGE High Tech}{Rabat, Morocco}{}{}}
 {\customcventry{June 2009}{Bachelor's Degree major: Physics}{Abi Darr ElGhifari High School}{Rabat, Morocco}{}{}}
 \section{PROFILE}
-Software engineer with hands on experience in application development and delivery cycle within investment banking front office teams (sales, engineering, trading), and with experience and advanced knowledge in the field of quantitative finance.
+Software engineer with hands on experience in application development and CI/CD within investment banking FO and RISK teams (sales, engineering, trading), and with experience and knowledge in the field of quantitative finance.
 
 \section{EXPERIENCE}
 %
-{\customcventry{June 2022 – Present }{Quantitative Index Developer (Consultant)}{London Stock Exchange Group - FTSE Russell}{Paris, France}{}{}
+{\customcventry{March 2023 – Present }{FO Risk Application Developer }{Bank of America Merrill Lynch}{Paris, France}{}{}
 {\begin{itemize}
-  \item Development and maintenance of financial indices profiling, calculation and processing library. 
-    \item Building REST API exposing library pricing functionalities to business teams.
-
-    \newline - Python 3, SybaseDB, FastAPI, Jenkins, 
+    \item Intraday risk and PnL application development for Linear Rates Trading.
+\end{itemize}
+}
+{\customcventry{June 2022 – March 2023 }{Quantitative Index Developer (Consultant)}{London Stock Exchange Group - FTSE Russell}{Paris, France}{}{}
+{\begin{itemize}
+    \item Maintain and scale REST API services exposing index pricing and profiling functionality to FO teams.
 \end{itemize}
 }
 
 {\customcventry{February 2022 –  June 2022 }{Software Engineer }{Solactive Index Engineering GMBH}{Dresden, Germany}{}{}
 {\begin{itemize}
-  \item Development and maintenance of a financial market data congestion application. 
-    \newline - Python 3, FastAPI, MongoDB, PostgreSQL, Docker, Kubernetes, Jenkins.
+  \item Implement and maintain a market data pipeline for internal index analysts.
 \end{itemize}
 }
 
 {\customcventry{June 2020 – January 2022 }{Front Office Software Engineer (Trading Fixed Income)}{Societe Generale Corporate and Investment Banking}{Paris La Défense, France}{}{}
 {\begin{itemize}
-  \item Building and integration of micro-services for implied volatility calculation processes and market data contribution to internal backends.
-    \newline - Stack: C\#.Net Core/Framework, Nancy, Python 3.
-
-  \item Setup a CI/CD pipeline for the team's existing Python applications. Teamcity, Octopus deploy.
+  \item Build and integrate a micro-service architecture to compute implied volatility and contribute market data to internal backends.
+  \item Setup a CI/CD pipeline for Python services. Teamcity, Octopus deploy.
 \end{itemize}
 }
 
 {\customcventry{June 2019 – June 2020}{Front Office Software Engineer (Pricing Fixed Income)}{Societe Generale Corporate and Investment Banking}{Paris La Défense, France}{}{}
 {\begin{itemize}
-  \item Developed a pre-trade tool to automate XVA pricings for FIC products (Swaps (Vanilla, Convexe, Flexible \& Callable), Cross Currency Swaps \& other FIC exotic products, used by FIC pricing team.)
-
-  	\newline - Stack: Python 3 (Pandas, Numpy), Flask, MongoDB, ElasticSearch Kibana.
-  \item Developed a monitoring tool for sales team to detect basis arbitrage opportunities for corporate clients.
+  \item Pre-trade tooling, automation and monitoring of XVA pricing for FIC products (vanilla swaps, cross curency swaps \& other exotic products).
+  \item Implement a monitoring tool for sales team to detect cross currency basis arbitrage opportunities for corporate clients.
   
 \end{itemize}
 }
 
 {\customcventry{Mar 2017 – Jan 2019}{Digital Transformation Engineer (Equity)}{Societe Generale Corporate and Investment Banking}{Casablanca, Morocco}{}{}
 {\begin{itemize}
-  \item Developed an application to automate mass pricing of equity structured products variants for distribution clients, which serves as entry points for potential trades.
-  \newline - Stack: Python 3, Flask, MongoDB, Pandas.
+  \item Develop and maintain a mass pricing automation app of equity structured products variants for distribution clients, which serves as entry points to potential trades.
 
   \end{itemize}
 }
@@ -169,12 +164,12 @@ Software engineer with hands on experience in application development and delive
 \begin{minipage}{\maincolumnwidth}%
 	\small{
     	\begin{itemize}
-          \item Relevant Coursework: Data Structures and Algorithms, Databases, Quatitative finance.
+          \item Relevant Coursework: Data Structures and Algorithms, Databases, Quatitative finance, Quartz.
           \item Programming Languages: Python, C\#.Net, Java.
-          \item Collaboration and VCS tools: Git, Gitlab
+          \item Collaboration and VCS tools: Git, Gitlab, Confluence, JIRA
           \item Frameworks, technologies \& tools : Flask, Django, FastAPI, .Net Core, Visual Studio, Pandas,  Jupyter Notebook.
-          \item Databases: SQL: Postgres, MSSQL Server. NoSQL: MongoDB, Couchbase
-          \item CI/CD \& monitoring: Teamcity, Jenkins, Kubernetes, Docker, JFrog Artifactory, Prometheus/Grafana 
+          \item Databases: SQL: PostgreSQL, SQL Server. NoSQL: MongoDB, Couchbase
+          \item CI/CD \& monitoring: Teamcity, Jenkins, Kubernetes, Docker, JFrog Artifactory, Prometheus/Grafana, ELK
           \item Fluent in both French and English.
 		\end{itemize}}%
 \end{minipage}%
